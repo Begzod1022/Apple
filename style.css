@@ -1,0 +1,841 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Add';
+    box-sizing: border-box;
+}
+
+header {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+header img {
+    width: 2.5%;
+    aspect-ratio: 4/3;
+    object-fit: contain;
+    mix-blend-mode: color-burn;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+img1 {
+    width: 1%;
+}
+
+.home1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 12%;
+    margin-top: 23px;
+    cursor: pointer;
+}
+
+.home1 h3 {
+    font-weight: 300;
+}
+
+.home1 p {
+    opacity: 55%;
+}
+
+.home2 {
+    height: 55vh;
+    background-color: #f5f5f7;
+    margin-top: 15px;
+    display: flex;
+}
+
+.text1 .ptext2 {
+    margin-left: 276px;
+    padding-top: 110px;
+    font-size: 50px;
+}
+
+.ptext1 {
+    font-size: 20px;
+    margin-left: 276px;
+    margin-top: 15px;
+    color: var(--sk-body-link-color, #06c);
+    cursor: pointer;
+}
+
+.cabel1 {
+    width: 100%;
+    padding-left: 35%;
+    margin-top: 130px;
+}
+
+.magsafe {
+    width: 100%;
+    padding-left: 20%;
+    margin-top: 15px;
+}
+
+.ftext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 38px;
+    font-weight: 550;
+}
+
+.home3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.imac {
+    background-color: #f5f5f7;
+    width: 750px;
+    height: 670px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.imaccharger {
+    background-color: #f5f5f7;
+    width: 350px;
+    height: 670px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.imacimg {
+    width: 90%;
+    object-fit: contain;
+    margin-left: 40px;
+}
+
+.imacch {
+    width: 80%;
+    object-fit: contain;
+    padding-top: 60px;
+    margin-left: 35px;
+}
+
+.ST1 {
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing: -.016em;
+    text-decoration: none;
+    color: black;
+    margin-top: 40%;
+}
+
+.text3 {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.text3 p {
+    margin-top: 70px;
+    opacity: 55%;
+}
+
+.text2 {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.text2 p {
+    margin-top: 40px;
+    opacity: 55%;
+}
+
+.keyb {
+    background-color: #f5f5f7;
+    width: 355px;
+    height: 550px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.MP {
+    background-color: #f5f5f7;
+    width: 370px;
+    height: 550px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.mouse {
+    background-color: #f5f5f7;
+    width: 370px;
+    height: 550px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.home4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.keybm {
+    width: 90%;
+    object-fit: contain;
+    margin-left: 20px;
+}
+
+.point {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.wpoint {
+    width: 4%;
+    object-fit: contain;
+}
+
+.text4 {
+    text-align: center;
+    margin-top: 45px;
+}
+
+.text4 a {
+    text-decoration: none;
+    color: black;
+}
+
+.text4 p {
+    opacity: 55%;
+    margin-top: 45px;
+}
+
+.mpm {
+    width: 85%;
+    object-fit: contain;
+    margin-left: 20px;
+}
+
+.text5 {
+    text-align: center;
+    margin-top: 45px;
+}
+
+.text5 a {
+    text-decoration: none;
+    color: black;
+}
+
+.text5 p {
+    opacity: 55%;
+    margin-top: 65px;
+}
+
+.mouse1 {
+    width: 85%;
+    object-fit: contain;
+    margin-left: 20px;
+}
+
+.text6 {
+    text-align: center;
+    margin-top: 45px;
+}
+
+.text6 a {
+    text-decoration: none;
+    color: black;
+}
+
+.text6 p {
+    opacity: 55%;
+    margin-top: 65px;
+}
+
+.stext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 38px;
+    font-weight: 550;
+}
+
+.usb-c {
+    background-color: #f5f5f7;
+    width: 365px;
+    height: 550px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.text7 {
+    text-align: center;
+    margin-top: 45px;
+}
+
+.text7 a {
+    text-decoration: none;
+    color: black;
+}
+
+.text7 p {
+    opacity: 55%;
+    margin-top: 45px;
+}
+
+.usb-c1 {
+    width: 93%;
+    object-fit: contain;
+    margin-left: 15px;
+}
+
+.usb-cTo {
+    background-color: #f5f5f7;
+    width: 365px;
+    height: 550px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.usb-cMS {
+    background-color: #f5f5f7;
+    width: 365px;
+    height: 550px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.home5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.usb-cTO1 {
+    width: 93%;
+    object-fit: contain;
+    margin-left: 15px;
+}
+
+.text8 {
+    text-align: center;
+    margin-top: 45px;
+}
+
+.text8 a {
+    text-decoration: none;
+    color: black;
+}
+
+.text8 p {
+    opacity: 55%;
+    margin-top: 60px;
+}
+
+.text9 {
+    text-align: center;
+    margin-top: 45px;
+}
+
+.text9 a {
+    text-decoration: none;
+    color: black;
+}
+
+.text9 p {
+    opacity: 55%;
+    margin-top: 45px;
+}
+
+.usb-cMS1 {
+    width: 93%;
+    object-fit: contain;
+    margin-left: 15px;
+}
+
+.points {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.points img {
+    width: 3%;
+}
+
+.p1 {
+    text-align: center;
+    font-size: 45px;
+    margin-top: 15px;
+}
+
+.caseformacbook {
+    background-color: #f5f5f7;
+    width: 365px;
+    height: 550px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.caseformacbook1 {
+    width: 87%;
+    object-fit: contain;
+    margin-left: 25px;
+}
+
+.textcase {
+    text-align: center;
+    margin-top: 45px;
+}
+
+.textcase a {
+    text-decoration: none;
+    color: black;
+}
+
+.textcase p {
+    opacity: 55%;
+    margin-top: 45px;
+}
+
+.console {
+    background-color: #f5f5f7;
+    width: 365px;
+    height: 550px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.console1 {
+    width: 85%;
+    object-fit: contain;
+    margin-left: 25px;
+}
+
+.textconsole {
+    text-align: center;
+    margin-top: 45px;
+}
+
+.textconsole a {
+    text-decoration: none;
+    color: black;
+}
+
+.textconsole p {
+    opacity: 55%;
+    margin-top: 45px;
+}
+
+.MountWithMagsafe {
+    background-color: #f5f5f7;
+    width: 365px;
+    height: 550px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.MountWithMagsafe1 {
+    width: 93%;
+    object-fit: contain;
+    margin-left: 15px;
+}
+
+.textMount {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.textMount a {
+    text-decoration: none;
+    color: black;
+}
+
+.textMount p {
+    opacity: 55%;
+    margin-top: 45px;
+}
+
+.home6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.ttext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 38px;
+}
+
+.AirpodsPro {
+    background-color: #f5f5f7;
+    width: 365px;
+    height: 550px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.AirpodsPro1 {
+    width: 70%;
+    object-fit: contain;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+.textAirpods {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.textAirpods a {
+    text-decoration: none;
+    color: black;
+}
+
+.textAirpods p {
+    opacity: 55%;
+    margin-top: 75px;
+}
+
+.AirpodsMax {
+    background-color: #f5f5f7;
+    width: 365px;
+    height: 550px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.AirpodsMax1 {
+    width: 70%;
+    object-fit: contain;
+    margin-left: 55px;
+    margin-top: 30px;
+}
+
+.textAirpodsMax {
+    text-align: center;
+    margin-top: 55px;
+}
+
+.textAirpodsMax a {
+    text-decoration: none;
+    color: black;
+}
+
+.textAirpodsMax p {
+    opacity: 55%;
+    margin-top: 80px;
+}
+
+.HomePodMini {
+    background-color: #f5f5f7;
+    width: 365px;
+    height: 550px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.HomePodMini1 {
+    width: 87%;
+    object-fit: contain;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.textHomePodMini {
+    text-align: center;
+    margin-top: -2px;
+}
+
+.textHomePodMini a {
+    text-decoration: none;
+    color: black;
+}
+
+.textHomePodMini p {
+    opacity: 55%;
+    margin-top: 83px;
+}
+
+.home7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.colorsofMax {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.colorsofMax img {
+    width: 3%;
+    object-fit: contain;
+}
+
+.fhtext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 18px;
+    color: var(--sk-body-link-color, #06c);
+    text-decoration: none;
+}
+
+.AppleCare {
+    width: 1130px;
+    background-color: #f5f5f7;
+    height: 450px;
+    margin-left: 190px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.AppleCare1 {
+    padding-top: 30px;
+}
+
+.AppleCarePlus {
+    font-size: 21px;
+}
+
+.ProtectMac {
+    font-size: 35px;
+    margin-top: 10px;
+}
+
+.GetDamaged {
+    margin-top: 10px;
+}
+
+.LearnMore {
+    color: var(--sk-body-link-color, #06c);
+    text-decoration: none;
+    margin-top: 80px;
+}
+
+.AppleCareImg {
+    width: 50%;
+    object-fit: contain;
+    margin-top: 50px;
+    margin-left: -50px;
+}
+
+.sbc {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 26px;
+    font-weight: 550;
+}
+
+.sbc2 {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.car img {
+    width: 25%;
+    object-fit: contain;
+}
+
+.car a {
+    text-decoration: none;
+}
+
+.package a {
+    text-decoration: none;
+}
+
+.AppleCard a {
+    text-decoration: none;
+}
+
+.package img {
+    width: 25%;
+    object-fit: contain;
+}
+
+.AppleCard img {
+    width: 25.5%;
+    object-fit: contain;
+}
+
+.bg1 {
+    background-color: #f5f5f7;
+    height: 135vh;
+    margin-top: 55px;
+}
+
+.bg2 {
+    justify-content: center;
+    align-items: start;
+    text-align: center;
+    display: flex;
+    gap: 130px;
+    padding-top: 60px;
+}
+
+.text12 {
+    padding-top: 10px;
+    opacity: 80%;
+    font-size: 15px;
+    font-weight: 50;
+}
+
+.text12 a {
+    padding-top: 15px;
+}
+
+.text-not-last {
+    margin-left: 200px;
+    margin-top: 100px;
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 1.3;
+    opacity: 50%;
+}
+
+.text-not-last2 {
+    margin-left: 200px;
+    margin-top: 15px;
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 1.3;
+    opacity: 50%;
+}
+
+.text-not-last3 {
+    margin-left: 200px;
+    margin-top: 15px;
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 1.3;
+    opacity: 50%;
+}
+
+hr {
+    margin-left: 200px;
+    width: 70%;
+    margin-top: 15px;
+    opacity: 65%;
+}
+
+.texts {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 100px;
+    margin-top: 15px;
+}
+
+.texts p {
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 2.2;
+    opacity: 50%;  
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.texts h5 {
+    font-size: 13px;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.last-one {
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 2.2;
+    opacity: 70%;  
+    margin-top: 35px;
+    margin-left: 200px;
+    word-spacing: 2px;
+    cursor: pointer;
+}
+.texts2 {
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 2.2;
+    opacity: 70%;  
+    margin-top: 15px;
+    margin-left: 200px;
+    display: flex;
+    gap: 40px;
+    cursor: pointer;
+    word-spacing: 4px;
+}
+
+.texts2 a {
+    text-decoration: none;
+    color: black;
+    word-spacing: 4px;
+}
+
+.US {
+    margin-left: 18.5%;
+    cursor: pointer;
+}
+
+.home11 {
+    display: grid;
+    grid-template-columns: 23.33% 23.33% 23.33%;
+    list-style: none;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.imgHome {
+    height: 56px;
+    margin-inline: 15px 20px;
+    vertical-align: middle;
+}
+
+.pHome {
+    display: inline-block;
+    min-width: 165px;
+    text-align: start;
+}
+
+.home12 {
+    background-color: inherit;
+    line-height: 67px;
+    text-align: center;
+    cursor: pointer;    
+}
